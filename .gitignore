@@ -416,3 +416,51 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+bin/
+lib/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Playwright / Browser ---
+# Verhindert, dass heruntergeladene Browser-Binaries hochgeladen werden
+.auth/
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# --- macOS ---
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# --- Sensible Daten (WICHTIG!) ---
+# Deine echten Passwörter dürfen niemals ins Repo
+config.yaml
+options.json
+secrets.yaml
+*.log
+
+# --- Visual Studio Code / IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
