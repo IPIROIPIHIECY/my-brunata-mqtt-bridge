@@ -7,7 +7,7 @@ DOMAIN = "brunata_muenchen"
 METER_MAPPING = {
     "HZ": {
         "device_class": SensorDeviceClass.ENERGY,
-        "unit": UnitOfEnergy.MEGAWATT_HOUR,
+        "unit": UnitOfEnergy.MEGA_WATT_HOUR,
         "name": "Heizung",
     },
     "WW": {
