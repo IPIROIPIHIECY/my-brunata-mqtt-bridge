@@ -2,7 +2,7 @@ import logging
 from datetime import timedelta
 from homeassistant.core import HomeAssistant
 from homeassistant.helpers.update_coordinator import DataUpdateCoordinator, UpdateFailed
-from brunata_api import BrunataClient
+from brunata_api.client import BrunataClient
 
 from .const import DOMAIN
 
