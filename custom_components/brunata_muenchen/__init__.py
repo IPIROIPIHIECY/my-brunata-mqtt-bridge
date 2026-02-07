@@ -13,8 +13,8 @@ async def async_setup_entry(hass: HomeAssistant, entry):
     """Setup Brunata München via Config Flow."""
     client = BrunataClient(
         base_url=entry.data[CONF_URL],
-        username=entry.data["CONF_USERNAME"],
-        password=entry.data["CONF_PASSWORD"],
+        username=entry.data[CONF_USERNAME],
+        password=entry.data[CONF_PASSWORD],
         sap_client=entry.data["sap_client"],
     )
 
