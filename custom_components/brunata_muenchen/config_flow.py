@@ -1,7 +1,7 @@
 import voluptuous as vol
 from homeassistant import config_entries
 from homeassistant.const import CONF_PASSWORD, CONF_USERNAME, CONF_URL
-from brunata_api.client import BrunataClient
+from brunata_api import BrunataClient
 import homeassistant.helpers.config_validation as cv
 
 from .const import DOMAIN
