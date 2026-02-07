@@ -1,0 +1,20 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Brunata München Login",
+        "description": "Bitte gib deine Zugangsdaten für das Brunata Nutzerportal ein.",
+        "data": {
+          "base_url": "Portal URL",
+          "username": "E-Mail / Benutzername",
+          "password": "Passwort",
+          "sap_client": "SAP Mandant (Standard: 201)"
+        }
+      }
+    },
+    "error": {
+      "auth_error": "Login fehlgeschlagen. Bitte überprüfe Benutzername und Passwort."
+    }
+  },
+  "title": "Brunata München"
+}

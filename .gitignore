@@ -464,3 +464,9 @@ secrets.yaml
 .idea/
 *.swp
 *.swo
+
+# Playwright
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
